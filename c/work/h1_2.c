@@ -24,7 +24,7 @@ void main() {
 	  상단에 정의된 사용자 정의 함수의 원형에 따라 하단에 정의된 함수가 호출된다
 	  product함수에 파라메터 scanf로 부터 입력된 a,b 값을 파라메터 전달하고 처리 완료된 값은 c값에 저장된다 
 	*/ 	
-	c = product(a,b);			
+	c = product(a,b);
 	
 	//scanf로 입력된 a,b 값과 함수 product에서 처리된 값을 출력한다. 
 	printf("%d * %d = %d\n", a, b, c);
