@@ -66,10 +66,10 @@ long double 자료형 크기 : 16 byte
 	printf("char 자료형 크기 : %d byte\n", sizeof(char));	
 	//char와 signed char는 동일한 자료형이나 signed char는 부호가 있는 문자를 출력할때 사용한다. 
 	//콘솔에 signed char의 사이즈를 출력한다. 1byte
-	printf("signed char 자료형 크기 : %d byte\n", sizeof(signed char));	//
+	printf("signed char 자료형 크기 : %d byte\n", sizeof(signed char));
 	
 	//콘솔에 short의 사이즈를 출력한다. 2byte
-	printf("short 자료형 크기 : %d byte\n", sizeof(short)); 	
+	printf("short 자료형 크기 : %d byte\n", sizeof(short)); 		
 	//콘솔에 short int 의 사이즈를 출력한다. 2byte
 	printf("short int 자료형 크기 : %d byte\n", sizeof(short int));	
 	
